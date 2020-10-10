@@ -60,59 +60,49 @@ Table of Contents
 |      |         |                     |           |
 
 ## 1. Introduction
+
 ### 1.1 Document Purpose
-This requirement document is for the final year capstone project which is being developed by the team Aquafina.The purpose of this document is to present a detailed description for a new web-based e-commerce system which acts as a community marketplace using virtual currency for Reframery. It will mainly explain the purpose of this web application, the user interfaces and the specific functions of the web application. It also explains the constraints of this software and the expected software quality. 
+This requirement document is for the final year capstone project which is being developed by the team Aquafina.The purpose of this document is to present a detailed description for a web application which acts as a community marketplace using virtual currency. It will mainly explain the purpose of this web application, the user interfaces and the pecific function of the web application. It also explains the constraints of this software and the expected software quality. 
 
 This document is intended for the following stakeholders:
 
-* **The Instructor for 4ZP6**
+* [The Instructor for 4ZP6]
 
 Dr. Carette is the instructor for the Computer Science Capstone Project: COMP SCI 4ZP6. Dr Carette designs the requirements and milestones, and will mark all the required documents and the project implementation.  
 
-* **The Teaching Assitants for 4ZP6**
+* [The Teaching Assitants for 4ZP6]
 
 Ethan and Brendan are the teaching assistant for this course, and they will assistant Dr. Carette mark the deliverables, and help students by providing valuable suggestions and feedback.
 
-* **The Client**
+* [The Client]
 
 The team leaded by Dr. Benson Honig is the client of this project, and they initiatived Reframery which provides entrepreneurship consulting and coaching services for diverse individuals to start new economic activities. Dr. Benson Honig is a professor of Degroote School of Business in McMaster University and the co-founder of regramery and he will focus on how the product will achieve their team mission - supporting diverse individuals and communities. Dr. Ana Cristina Siqueira is also the co-founder of Regramery, and she will focus on the expected product interfaces and functions. Dr. Sandra Moraes and two students in the their team did some research about community currency and they will focus on the technical solutions in this project.
 
-* **The Aquafina**
+* [The Aquafina]
 
 The Aquafina is composed of five students enrolled in the Computer Science Capstone Project. They are Weijie Liang, Kexin Liu, Shanghong Shen, Liyang Wang and Fang Ye. The team will be responsible for managing the project effectivley and distributing tasks amongst the team members, including requiremnt gathering, documentation, designing, developing and testing.
 
-* **The Aquafina**
+* [The Aquafina]
 
 The Aquafina is composed of five students enrolled in the Computer Science Capstone Project. They are Weijie Liang, Kexin Liu, Shanghong Shen, Liyang Wang and Fang Ye. The team will be responsible for managing the project effectivley and distributing tasks amongst the team members, including requiremnt gathering, documentation, designing, developing and testing.
 
-* **Users**
+* [Users]
 
 The target users are diverse individuals who hope to commercialize their products, services and knowledge in the community network, and most the users maybe at the bottom of the pyramid. The web application will be used in Canada, the USA and Brazil in the first stage. Thus, most users will have basic experiences using online transaction system. 
 
 ### 1.2 Product Scope
 
-The Ingenuity Incubator is a web-based e-commerce system where people can trade their products and service including knowledge using virtual community currency. Users can create their lists of product or service details in different categories and search the items they needs. The software will record the transaction history and details for the each user and keep track of the balance for currency, products and services. The Ingenuity Incubator system is a part of the Reframery Information System, which aims to integrate the virtural currency based on blockchain and the marketplace application.  
+The Ingenuity Incubator web application is a platform where people can trade their products and service including knowledge using virtual community currency. Users can create their lists of product or service details in different categories and search the items they needs. The software will record the transaction history and details for the each user and keep track of the balance for currency, products and services.  The Ingenuity Incubator web application is a part of the Reframery Information System, which aims to integrate the virtural currency based on blockchain and the marketplace application.  
 
-This system will help the diverse individuals to start their commercial actvities in their social network and improve their personal life. People who have competence and creativity will engage in the community well and make their potential contribution to local economies. Thus, it will also plays a positive impact on the community economies during the global economic stagnation. What the web application can do will help the Reframery team to fulfill their mission. The Reframery team can improved their consulting and training service for their client based on the data in the information system. 
+This web application will help the diverse individuals to start their commercial actvities in their social network and improve their personal life. People who have competence and creativity will engage in the community well and make their potential contribution to local economies. Thus, it will also plays a positive impact on the community economies during the global economic stagnation. What the web application can do will help the Reframery team to fulfill their mission. The Reframery team can improved their consulting and training service for their client based on the data in the information system. 
 
 ### 1.3 Definitions, Acronyms and Abbreviations
-RC - currency code for Reframery Currency
-\$ - currency symbol for Reframery Currency
 
 ### 1.4 References
-Reframery. Retrieved Oct 10, 2020, from https://www.reframery.org/ <br>
-jam01/SRS-Template. Retrieved Oct 10, 2020, from https://github.com/jam01/SRS-Template <br>
-
+List any other documents or Web addresses to which this SRS refers. These may include user interface style guides, contracts, standards, system requirements specifications, use case documents, or a vision and scope document. Provide enough information so that the reader could access a copy of each reference, including title, author, version number, date, and source or location.
 
 ### 1.5 Document Overview
-The outline of this document is based on IEEE 830, and ISO/IEC/IEEE 29148, and the rest of the document contains the detailed specification for the e-commerce system. It is organized as follows: 
-* Section 2: Product Overview <br>
-It provides a general description for the product perspective, user characteristics, constraints and dependencies which will affect the e-commerce system and its requirements.  Execept that, It also provides a background for the product functions which are described in detail in Section 3 of this document. 
-* Section 3: Requiremetns <br>
-It decribes the requirements for the external interfaces, functions, quality-related property in detail, which enables designers to design the system and tests to test it to satisfy the requirements.  
-* Section 4: Verification <br>
-It provides the plan for verification approaches to qualify the system.
-* Section 4: Appendixes <br>
+Describe what the rest of the document contains and how it is organized.
 
 ## 2. Product Overview
 > This section should describe the general factors that affect the product and its requirements. This section does not state specific requirements. Instead, it provides a background for those requirements, which are defined in detail in Section 3, and makes them easier to understand.
@@ -167,16 +157,25 @@ Identify requirements that may be delayed until future versions of the system (e
 * Command formats
 * End messages
 
-#### 3.1.1 User interfaces
-Define the software components for which a user interface is needed. Describe the logical characteristics of each interface between the software product and the users. This may include sample screen images, any GUI standards or product family style guides that are to be followed, screen layout constraints, standard buttons and functions (e.g., help) that will appear on every screen, keyboard shortcuts, error message display standards, and so on. Details of the user interface design should be documented in a separate user interface specification.
+产品外部的界面都有什么？
 
-Could be further divided into Usability and Convenience requirements.
+#### 3.1.1 User interfaces
+The user interface for the ingenuity incubator project has been designed in the early-stage prototype by the client. The application shall inherit its functionality, allowing users to trade products and services using community currency. The user interface shall be simple and focus on usability. The user interface shall be compatible to any browser by which user can access to the product.
+> The application should have following user interaces:
+* Initial page with the a preview of information such as the name of the community, the number of participants, and the start-up reframery currency
+* Main page for selling and buying products. The screen should display the trader's name and the product's price（？）
+* Login page for authenticating users. The screen should accept new user registration and login user name and password. (?)
+
 
 #### 3.1.2 Hardware interfaces
-Describe the logical and physical characteristics of each interface between the software product and the hardware components of the system. This may include the supported device types, the nature of the data and control interactions between the software and the hardware, and communication protocols to be used.
+The Ingenuity Incubator application is web-based and has no direct hardware interface.
 
 #### 3.1.3 Software interfaces
 Describe the connections between this product and other specific software components (name and version), including databases, operating systems, tools, libraries, and integrated commercial components. Identify the data items or messages coming into the system and going out and describe the purpose of each. Describe the services needed and the nature of communications. Refer to documents that describe detailed application programming interface protocols. Identify data that will be shared across software components. If the data sharing mechanism must be implemented in a specific way (for example, use of a global data area in a multitasking operating system), specify this as an implementation constraint.
+
+The application shall communicate with the internet.
+The application shall communicate with user and product database 
+The application shall communicate with block chain for community currency.
 
 ### 3.2 Functional
 > This section specifies the requirements of functional effects that the software-to-be is to have on its environment.
