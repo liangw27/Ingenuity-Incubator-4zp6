@@ -1,25 +1,16 @@
 # Software Requirements Specification
-## For <Ingenuity Incubator>
+## For Ingenuity Incubator
 
-Version 0.1 
-
-Prepared by <Team Aquafina>  
- 
-Weijie Liang -
-
-Kexin Liu - 
-
-Shanghong Shen - 
-
-Liyang Wang - 
-
-Fang Ye - 400273067 
-
-**Instructor** : Dr. Jacques Carette 
-
-**Course** : COMPSCI 4ZP6 
-
-**Date** : 2020-10-08  
+Version 0.1<br>
+Prepared by Team Aquafina <br>
+Weijie Liang -    <br>
+Kexin Liu -    <br>
+Shanghong Shen -     <br>
+Liyang Wang -   <br>
+Fang Ye - 400273067     <br>
+**Instructor** : Dr. Jacques Carette    <br>
+**Course** : COMPSCI 4ZP6     <br>
+**Date** : 2020-10-08     <br>
 
 Table of Contents
 =================
