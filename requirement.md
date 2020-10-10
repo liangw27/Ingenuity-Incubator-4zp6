@@ -1,10 +1,16 @@
 # Software Requirements Specification
-## For <project name>
+## For <Ingenuity Incubator>
 
 Version 0.1  
-Prepared by <author>  
-<organization>  
-<date created>  
+Prepared by <Team Aquafina>  
+Weijie Liang - 
+Kexin Liu - 
+Shanghong Shen - 
+Liyang Wang - 
+Fang Ye - 400273067 
+**Instructor** : Dr. Jacques Carette 
+**Course** : COMPSCI 4ZP6 
+**Date** : 2020-10-08  
 
 Table of Contents
 =================
@@ -54,13 +60,41 @@ Table of Contents
 |      |         |                     |           |
 
 ## 1. Introduction
-> This section should provide an overview of the entire document
 
 ### 1.1 Document Purpose
-Describe the purpose of the SRS and its intended audience.
+This requirement document is for the final year capstone project which is being developed by the team Aquafina.The purpose of this document is to present a detailed description for a web application which acts as a community marketplace using virtual currency. It will mainly explain the purpose of this web application, the user interfaces and the pecific function of the web application. It also explains the constraints of this software and the expected software quality. 
+
+This document is intended for the following stakeholders:
+
+* [The Instructor for 4ZP6]
+
+Dr. Carette is the instructor for the Computer Science Capstone Project: COMP SCI 4ZP6. Dr Carette designs the requirements and milestones, and will mark all the required documents and the project implementation.  
+
+* [The Teaching Assitants for 4ZP6]
+
+Ethan and Brendan are the teaching assistant for this course, and they will assistant Dr. Carette mark the deliverables, and help students by providing valuable suggestions and feedback.
+
+* [The Client]
+
+The team leaded by Dr. Benson Honig is the client of this project, and they initiatived Reframery which provides entrepreneurship consulting and coaching services for diverse individuals to start new economic activities. Dr. Benson Honig is a professor of Degroote School of Business in McMaster University and the co-founder of regramery and he will focus on how the product will achieve their team mission - supporting diverse individuals and communities. Dr. Ana Cristina Siqueira is also the co-founder of Regramery, and she will focus on the expected product interfaces and functions. Dr. Sandra Moraes and two students in the their team did some research about community currency and they will focus on the technical solutions in this project.
+
+* [The Aquafina]
+
+The Aquafina is composed of five students enrolled in the Computer Science Capstone Project. They are Weijie Liang, Kexin Liu, Shanghong Shen, Liyang Wang and Fang Ye. The team will be responsible for managing the project effectivley and distributing tasks amongst the team members, including requiremnt gathering, documentation, designing, developing and testing.
+
+* [The Aquafina]
+
+The Aquafina is composed of five students enrolled in the Computer Science Capstone Project. They are Weijie Liang, Kexin Liu, Shanghong Shen, Liyang Wang and Fang Ye. The team will be responsible for managing the project effectivley and distributing tasks amongst the team members, including requiremnt gathering, documentation, designing, developing and testing.
+
+* [Users]
+
+The target users are diverse individuals who hope to commercialize their products, services and knowledge in the community network, and most the users maybe at the bottom of the pyramid. The web application will be used in Canada, the USA and Brazil in the first stage. Thus, most users will have basic experiences using online transaction system. 
 
 ### 1.2 Product Scope
-Identify the product whose software requirements are specified in this document, including the revision or release number. Explain what the product that is covered by this SRS will do, particularly if this SRS describes only part of the system or a single subsystem. Provide a short description of the software being specified and its purpose, including relevant benefits, objectives, and goals. Relate the software to corporate goals or business strategies. If a separate vision and scope document is available, refer to it rather than duplicating its contents here.
+
+The Ingenuity Incubator web application is a platform where people can trade their products and service including knowledge using virtual community currency. Users can create their lists of product or service details in different categories and search the items they needs. The software will record the transaction history and details for the each user and keep track of the balance for currency, products and services.  The Ingenuity Incubator web application is a part of the Reframery Information System, which aims to integrate the virtural currency based on blockchain and the marketplace application.  
+
+This web application will help the diverse individuals to start their commercial actvities in their social network and improve their personal life. People who have competence and creativity will engage in the community well and make their potential contribution to local economies. Thus, it will also plays a positive impact on the community economies during the global economic stagnation. What the web application can do will help the Reframery team to fulfill their mission. The Reframery team can improved their consulting and training service for their client based on the data in the information system. 
 
 ### 1.3 Definitions, Acronyms and Abbreviations
 
