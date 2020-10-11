@@ -82,10 +82,6 @@ The team leaded by Dr. Benson Honig is the client of this project, and they init
 
 The Aquafina is composed of five students enrolled in the Computer Science Capstone Project. They are Weijie Liang, Kexin Liu, Shanghong Shen, Liyang Wang and Fang Ye. The team will be responsible for managing the project effectivley and distributing tasks amongst the team members, including requiremnt gathering, documentation, designing, developing and testing.
 
-* **The Aquafina**
-
-The Aquafina is composed of five students enrolled in the Computer Science Capstone Project. They are Weijie Liang, Kexin Liu, Shanghong Shen, Liyang Wang and Fang Ye. The team will be responsible for managing the project effectivley and distributing tasks amongst the team members, including requiremnt gathering, documentation, designing, developing and testing.
-
 * **Users**
 
 The target users are diverse individuals who hope to commercialize their products, services and knowledge in the community network, and most the users maybe at the bottom of the pyramid. The web application will be used in Canada, the USA and Brazil in the first stage. Thus, most users will have basic experiences using online transaction system. 
