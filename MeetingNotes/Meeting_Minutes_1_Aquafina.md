@@ -22,7 +22,7 @@
 * Core functions
    * Community overview
    * Personal account
-   * Market space?
+   * Marketplace
 * Performance requirement
    * Light-weighted
 * Maintainability
