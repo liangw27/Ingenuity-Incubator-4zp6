@@ -3,7 +3,7 @@
 
 Version 0.1<br>
 Prepared by Team Aquafina <br>
-Weijie Liang -    <br>
+Weijie Liang -  400180358  <br>
 Kexin Liu -    <br>
 Shanghong Shen -     <br>
 Liyang Wang -   <br>
@@ -121,32 +121,77 @@ It provides the plan for verification approaches to qualify the system.
 * Section 5: Appendixes <br>
 
 ## 2. Product Overview
-> This section should describe the general factors that affect the product and its requirements. This section does not state specific requirements. Instead, it provides a background for those requirements, which are defined in detail in Section 3, and makes them easier to understand.
 
 ### 2.1 Product Perspective
-Describe the context and origin of the product being specified in this SRS. For example, state whether this product is a follow-on member of a product family, a replacement for certain existing systems, or a new, self-contained product. If the SRS defines a component of a larger system, relate the requirements of the larger system to the functionality of this software and identify interfaces between the two. A simple diagram that shows the major components of the overall system, subsystem interconnections, and external interfaces can be helpful.
+The Ingenuity Incubator is an electronic commerce software supporting product, service and knowledge trade using the Reframery currency within a community. This system is expected to support a number of functions for both users(buyers and sellers) and the system administrator, and implement client-server model.
+
+The software must be available to users in targetted communities and it must work correctly in different mobile systems, including Android and iOS. 
 
 ### 2.2 Product Functions
-Summarize the major functions the product must perform or must let the user perform. Details will be provided in Section 3, so only a high level summary (such as a bullet list) is needed here. Organize the functions to make them understandable to any reader of the SRS. A picture of the major groups of related requirements and how they relate, such as a top level data flow diagram or object class diagram, is often effective.
+The Ingenuity Incubator will provide a number of functions:
+
+a. users:
+* Users are identified as buyers or sellers.
+* Each user has an unique username, a non-restricted password, a non-restricted email address and a physical address.
+* Any person within a targetted community can sign up for a new user account.
+* Users can access the platform and check their balance and transaction history.
+
+b. currency:
+* There is a common-pool fund, which contains overall amount of currency to be assigned.
+* Each user is originally assigned to own a number of currency in their wallet.
+* The amount of currency involved in each transaction will be recorded.
+
+c. administrator:
+* Administrator can validate registration of users.
+* Administrator can assign currency to users.
+* Administrator can stop any suspicious transactions.
+* Administrator can view the history of transactions.
+
+d. products/service/knowledge:
+* Products/service/knowledge in the marketplace will be originally listed by alphabetical order.
+* Products/service/knowledge can be searched by typing in related descriptive key words.
+* Users(sellers) can register,edit and discard their selling products/service/knowledge with detailed descriptions.
+* All users can view the lists for products/service/knowledge using filters.
+* The system will record purchase/selling history of products/service/knowledge.
 
 ### 2.3 Product Constraints
-This subsection should provide a general description of any other items that will limit the developer’s options. These may include:  
-
-* Interfaces to users, other applications or hardware.  
-* Quality of service constraints.  
-* Standards compliance.  
-* Constraints around design or implementation.
+* Initial release can only allow a limited number of products/service/knowledge in research result owing to restrictions by database system.
+* Initial release can only be supported on iOS and Andriod system.
+* The Ingenuity Incubator can not work without JavaScipt support.
+* The Internet connection is also a constraint. Since the app fetches data from the database over the Internet, reliable internet connection is important to make our app bahave functionally.
 
 ### 2.4 User Characteristics
-Identify the various user classes that you anticipate will use this product. User classes may be differentiated based on frequency of use, subset of product functions used, technical expertise, security or privilege levels, educational level, or experience. Describe the pertinent characteristics of each user class. Certain requirements may pertain only to certain user classes. Distinguish the most important user classes for this product from those who are less important to satisfy.
+There are three kinds of users of The Ingenuity Incubator.
+* Users(sellers): These users will access the system most frequently since they need to monitor any requests for products/service/knowledge. They are supposed to provide information on their sales as detailed as possible. Since the majority of sellers have minimal technical knowledge, they may need intuitive navigation aids and simple page layouts. They also need notifications from the software when there are requests for their selling goods.
+* Users(buyers): These users will access the system when they seek for products/service/knowledge to satisfy their needs. Since the majority of buyers have minimal technical knowledge, they may need intuitive navigation aids and simple page layouts. They may require the function of searching using key words to fastly identify related products/service/knowledge for sales. They may also require a filter to sort the lists of goods.
+* Administrator: They are responsible for maintaining the system of The Ingenuity Incubator and will participate in software fixes, deployment and regular maintenance.
 
 ### 2.5 Assumptions and Dependencies
-List any assumed factors (as opposed to known facts) that could affect the requirements stated in the SRS. These could include third-party or commercial components that you plan to use, issues around the development or operating environment, or constraints. The project could be affected if these assumptions are incorrect, are not shared, or change. Also identify any dependencies the project has on external factors, such as software components that you intend to reuse from another project, unless they are already documented elsewhere (for example, in the vision and scope document or the project plan).
+* Users: We have assumed all users have access to their mobile phones and they are capable of operating basic functions of iOS or Andriod system. For example, they are able to install the app from app store and open it using their phones. After that, they are able to register a new account and then login with usernames and passwords.
+* Providers: We assumed that the app store of iOS or Andriod system will allow our app to be installed by users.
+* Safety: We assumed that there is no hackers attacking our system deliberately.
 
 ### 2.6 Apportioning of Requirements
-Apportion the software requirements to software elements. For requirements that will require implementation over multiple software elements, or when allocation to a software element is initially undefined, this should be so stated. A cross reference table by function and software element should be used to summarize the apportioning.
+| Requirement Index| Requirement    | software element |
+| ----------- | -------------- | ------------------- |
+|      R1    |  user - registration  |        name/id,password,email,address              |  
+|     R2      |    user - log-in      |        name/id,password          |    
+|     R3      |      user - create product/service/knowledge category   |      category name           |    
+|     R4      |      user - add a new product/service/knowledge    |      titles, details of product/service/knowledge              |     
+|     R5      |      user - edit product/service/knowledge information   |      titles, details of product/service/knowledge              |    
+|     R6      |      user - search a product/service/knowledge   |    type-in keywords, titles and details of product/service/knowledge             |   
+|     R7      |      user - purchase a product/service/knowledge   |      currency balance, price             |      
+|     R8      |  administrator -  place currency to user    |       currency amount, user name/id            |      
+|     R9      |  administrator -  approve users' proposal   |    username/id            |     
+|     R10      |      record wallet balance   |    currency balance                |     
+|     R11     |      record selling   |     currency balance, price              |     
+|     R12     |      record purchase   |         currency balance, price             |   
+|     R13     |      security - user authentication   |      user email     |    
 
-Identify requirements that may be delayed until future versions of the system (e.g., blocks and/or increments).
+Requirements that may be delayed until future versions of the system:
+* It will have multiple languages versions.
+* It will be added support for visually impaired users.
+* It will be added the function of online customer service.  
 
 ## 3. Requirements
 > This section specifies the software product's requirements. Specify all of the software requirements to a level of detail sufficient to enable designers to design a software system to satisfy those requirements, and to enable testers to test that the software system satisfies those requirements.
